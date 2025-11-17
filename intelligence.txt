@@ -1,0 +1,14 @@
+payload:
+    - duckcoding.com
+    - anthropic.com
+    - auth0.com
+    - challenges.cloudflare.com
+    - claude.ai
+    - stripe.com
+    - gemini.com
+    - ping0.cc
+    - openai.com
+    - oaistatic.com
+    - client-api.arkoselabs.com
+    - oaiusercontent.com
+    - chatgpt.com

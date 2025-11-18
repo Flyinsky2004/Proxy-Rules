@@ -6,6 +6,7 @@ payload:
     - '+.claude.ai'
     - '+.stripe.com'
     - '+.gemini.com'
+    - '+.gemini.google.com'
     - '+.ping0.cc'
     - '+.openai.com'
     - '+.oaistatic.com'

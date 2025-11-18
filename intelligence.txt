@@ -1,14 +1,14 @@
 payload:
-    - duckcoding.com
-    - anthropic.com
-    - auth0.com
-    - challenges.cloudflare.com
-    - claude.ai
-    - stripe.com
-    - gemini.com
-    - ping0.cc
-    - openai.com
-    - oaistatic.com
-    - client-api.arkoselabs.com
-    - oaiusercontent.com
-    - chatgpt.com
+    - DOMAIN-SUFFIX,duckcoding.com
+    - DOMAIN-SUFFIX,anthropic.com
+    - DOMAIN-SUFFIX,auth0.com
+    - DOMAIN-SUFFIX,challenges.cloudflare.com
+    - DOMAIN-SUFFIX,claude.ai
+    - DOMAIN-SUFFIX,stripe.com
+    - DOMAIN-SUFFIX,gemini.com
+    - DOMAIN-SUFFIX,ping0.cc
+    - DOMAIN-SUFFIX,openai.com
+    - DOMAIN-SUFFIX,oaistatic.com
+    - DOMAIN-SUFFIX,client-api.arkoselabs.com
+    - DOMAIN-SUFFIX,oaiusercontent.com
+    - DOMAIN-SUFFIX,chatgpt.com

@@ -1,4 +1,4 @@
-payload:a
+payload:
     - '+.duckcoding.com'
     - '+.anthropic.com'
     - '+.auth0.com'

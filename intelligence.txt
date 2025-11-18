@@ -2,7 +2,7 @@ payload:
     - '+.duckcoding.com'
     - '+.anthropic.com'
     - '+.auth0.com'
-    - '+.hallenges.cloudflare.com'
+    - '+.challenges.cloudflare.com'
     - '+.claude.ai'
     - '+.stripe.com'
     - '+.gemini.com'

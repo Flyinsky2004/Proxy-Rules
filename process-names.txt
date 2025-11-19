@@ -1,0 +1,3 @@
+payload:
+ - PROCESS-NAME,language_server_windows_x64
+ - PROCESS-NAME,language_server_windows_x64.exe

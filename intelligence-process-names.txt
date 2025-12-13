@@ -3,3 +3,4 @@ payload:
  - PROCESS-NAME,language_server_windows_x64.exe
  - PROCESS-NAME,Antigravity.exe
  - PROCESS-NAME,Antigravity
+ - PROCESS-NAME,Antigravity Helper

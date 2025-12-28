@@ -13,3 +13,5 @@ payload:
     - '+.client-api.arkoselabs.com'
     - '+.oaiusercontent.com'
     - '+.chatgpt.com'
+    - 'global.uhdnow.com'
+    - 'v1.uhdnow.com'

@@ -3,3 +3,6 @@ payload:
     - swdist.apple.com
     - swcdn.apple.com
     - xp.apple.com
+    - swscan.apple.com
+    - gdmf.apple.com
+    - mesu.apple.com

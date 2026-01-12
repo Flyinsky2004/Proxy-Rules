@@ -4,6 +4,7 @@ payload:
     - '+.auth0.com'
     - '+.challenges.cloudflare.com'
     - '+.claude.ai'
+    - '+.claude.com'
     - '+.stripe.com'
     - '+.gemini.com'
     - '+.gemini.google.com'

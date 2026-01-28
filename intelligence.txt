@@ -137,7 +137,6 @@ payload:
   - '+.getbraintree.com'
   - '+.githubcopilot.com'
   - '+.gmoney.org'
-  - '+.google.com'
   - '+.grammarly.com'
   - '+.grep.app'
   - '+.grok.com'

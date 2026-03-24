@@ -1,2 +1,3 @@
 payload:
  - PROCESS-NAME,WeChat
+ - PROCESS-NAME,ts3client_win64.exe

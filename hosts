@@ -1,0 +1,74 @@
+# ============================================================
+# Claude AI 本机 hosts 阻断规则
+# 作用：阻断本机直连访问，只有在 Clash 接管并走代理时才可能访问
+# 说明：hosts 仅支持精确域名，不支持 DOMAIN-SUFFIX / KEYWORD / CIDR / ASN
+# ============================================================
+
+# ======== 核心域名 ========
+0.0.0.0 claude.ai
+0.0.0.0 www.claude.ai
+0.0.0.0 anthropic.com
+0.0.0.0 www.anthropic.com
+0.0.0.0 claude.com
+0.0.0.0 www.claude.com
+0.0.0.0 claudeusercontent.com
+0.0.0.0 www.claudeusercontent.com
+0.0.0.0 claudemcpclient.com
+0.0.0.0 www.claudemcpclient.com
+
+::1 claude.ai
+::1 www.claude.ai
+::1 anthropic.com
+::1 www.anthropic.com
+::1 claude.com
+::1 www.claude.com
+::1 claudeusercontent.com
+::1 www.claudeusercontent.com
+::1 claudemcpclient.com
+::1 www.claudemcpclient.com
+
+# ======== CDN & 静态资源 ========
+0.0.0.0 servd-anthropic-website.b-cdn.net
+0.0.0.0 cdn.usefathom.com
+::1 servd-anthropic-website.b-cdn.net
+::1 cdn.usefathom.com
+
+# ======== 监控/遥测：Datadog RUM ========
+0.0.0.0 browser-intake-us5-datadoghq.com
+::1 browser-intake-us5-datadoghq.com
+
+# ======== 客服：Intercom ========
+0.0.0.0 intercom.io
+0.0.0.0 www.intercom.io
+0.0.0.0 intercomcdn.com
+0.0.0.0 www.intercomcdn.com
+::1 intercom.io
+::1 www.intercom.io
+::1 intercomcdn.com
+::1 www.intercomcdn.com
+
+# ======== Feature Flags：Statsig ========
+0.0.0.0 statsigapi.net
+0.0.0.0 www.statsigapi.net
+::1 statsigapi.net
+::1 www.statsigapi.net
+
+# ======== 错误追踪：Sentry ========
+0.0.0.0 sentry.io
+0.0.0.0 www.sentry.io
+::1 sentry.io
+::1 www.sentry.io
+
+# ======== Google 静态资源（页面字体等）========
+0.0.0.0 t0.gstatic.com
+0.0.0.0 t1.gstatic.com
+0.0.0.0 t2.gstatic.com
+0.0.0.0 t3.gstatic.com
+::1 t0.gstatic.com
+::1 t1.gstatic.com
+::1 t2.gstatic.com
+::1 t3.gstatic.com
+
+# ======== Claude Code 更新/下载 ========
+0.0.0.0 storage.googleapis.com
+::1 storage.googleapis.com

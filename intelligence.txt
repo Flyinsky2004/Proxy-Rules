@@ -4,7 +4,6 @@ payload:
   - '+.gemini.com'
   - '+.arkoselabs.com'          # 你要的是 openai-api.arkoselabs.com（注意不是 client-api）
   - 'global.uhdnow.com'
-  - 'v1.uhdnow.com'
 ####################################################
   - '+.ai.google.dev'
   - '+.alkalimakersuite-pa.clients6.google.com'

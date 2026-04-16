@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "process_name": [
+        "WeChat",
+        "ts3client_win64.exe"
+      ]
+    }
+  ]
+}

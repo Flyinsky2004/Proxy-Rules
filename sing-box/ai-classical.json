@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "claude.ai",
+        "anthropic.com",
+        "claude.com",
+        "claudeusercontent.com",
+        "claudemcpclient.com",
+        "intercom.io",
+        "intercomcdn.com",
+        "statsigapi.net",
+        "sentry.io"
+      ]
+    },
+    {
+      "domain": [
+        "servd-anthropic-website.b-cdn.net",
+        "cdn.usefathom.com",
+        "browser-intake-us5-datadoghq.com",
+        "t0.gstatic.com",
+        "t1.gstatic.com",
+        "t2.gstatic.com",
+        "t3.gstatic.com",
+        "storage.googleapis.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "datadoghq",
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "160.79.104.0/21",
+        "2607:6bc0::/32"
+      ]
+    }
+  ]
+}

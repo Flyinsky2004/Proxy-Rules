@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "process_name": [
+        "language_server_windows_x64",
+        "language_server_windows_x64.exe",
+        "Antigravity.exe",
+        "Antigravity",
+        "Antigravity Helper",
+        "antigravity_tools"
+      ]
+    }
+  ]
+}

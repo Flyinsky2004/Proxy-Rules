@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "apple-relay.cloudflare.com",
+        "apple-relay.apple.com"
+      ]
+    }
+  ]
+}

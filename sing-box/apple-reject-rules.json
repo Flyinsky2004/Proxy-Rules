@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "swscan.apple.com",
+        "swdist.apple.com",
+        "swcdn.apple.com",
+        "xp.apple.com",
+        "gdmf.apple.com",
+        "mesu.apple.com"
+      ]
+    }
+  ]
+}

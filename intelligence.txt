@@ -387,6 +387,7 @@ payload:
   - '+.sentry.io'
   - '+.sheerid.com'
   - '+.simility.com'
+  - '+.sora.com'
   - '+.sourcegraph.com'
   - '+.sslpaypal.org'
   - '+.stability.ai'

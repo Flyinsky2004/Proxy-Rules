@@ -1,2 +1,5 @@
 payload:
     - baidu.com
+    - ct.speedtest.sarl
+    - cu.speedtest.sarl
+    - cm.speedtest.sarl

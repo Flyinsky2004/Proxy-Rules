@@ -1,6 +1,6 @@
 # ============================================================
-# Claude AI / xAI Grok 完整代理规则 (Surge Format)
-# Updated: 2026-08-11
+# Claude AI / xAI Grok / Muse AI / Meta AI 代理规则 (Surge Format)
+# Updated: 2026-11-07
 # ============================================================
 
 # ======== 核心域名 ========
@@ -18,6 +18,39 @@ DOMAIN-SUFFIX,grok.com
 # Grok 用户内容、Artifacts 与 MCP 沙箱资源
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,grok-sandbox.com
+
+# ======== Muse AI ========
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+
+# ======== Meta AI 核心域名与用户内容 ========
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN-SUFFIX,ecto1.ai
+DOMAIN-SUFFIX,hatch.one
+
+# ======== Meta AI 共享服务（精确匹配）========
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-agents-apps.workers.dev
+
+# ======== Meta 社交平台与 CDN（覆盖对应平台全部子域名）========
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbpigeon.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
 
 # ======== CDN & 静态资源 ========
 DOMAIN,servd-anthropic-website.b-cdn.net
